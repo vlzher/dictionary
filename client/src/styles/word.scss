@@ -1,0 +1,25 @@
+.word{
+  user-select: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 98%;
+  height: 7%;
+  background: #f8ee27;
+  border-radius: 10px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+.word.word{
+  outline: 6px solid blue;
+  background: #f8ee27;
+  color: #000000;
+}
+.word.description{
+  outline: 6px solid #14d9e0;
+  background: #880ed9;
+  color: #ffffff;
+}

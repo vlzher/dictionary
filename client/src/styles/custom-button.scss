@@ -1,0 +1,16 @@
+.custom-button{
+  height: 50px;
+  width: 150px;
+  border: none;
+  background: #3a3636;
+  border-radius: 5px;
+  box-shadow: 10px 7px 7px red;
+  outline: 4px solid #000000;
+  transition: 0.1s;
+  color: #e1dede;
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.5rem;
+}
+.custom-button:hover{
+  background: #2c2929;
+}
